@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -23,11 +23,19 @@
   color: var(--primaryColor);
   font-size: var(--smallFontSize);
   font-weight: 500;
+  padding: 0 1rem;
 }
 .destination .secContainer h3 {
   font-size: var(--h1FontSize);
+  padding: 0 1rem;
+}
+.destination .secContainer P {
+  padding: 0 1rem;
 }
 .destination .secContainer .searchField {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 15%;
+  justify-content: space-evenly;
   margin-top: 2rem;
   gap: 1rem;
 }
@@ -58,6 +66,9 @@
 }
 .destination .destinationContainer {
   margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
 }
 .destination .destinationContainer .singleDestination {
   position: relative;
@@ -108,7 +119,8 @@
   padding-bottom: 0.3rem;
   font-weight: var(--h2FontSize);
 }
-.destination .destinationContainer .text .flex, .destination .destinationContainer .text .icon {
+.destination .destinationContainer .text .flex,
+.destination .destinationContainer .text .icon {
   font-size: var(--normalFontSize);
 }
 .destination .destinationContainer .rating {

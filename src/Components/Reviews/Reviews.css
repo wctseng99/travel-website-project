@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -19,6 +19,10 @@
   --borderRadius: 3rem;
 }
 
+.review .secContainer .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
 .review .secContainer .redText {
   font-size: var(--smallestFontSize);
   display: block;
@@ -31,6 +35,7 @@
   padding: 1rem 0;
 }
 .review .secContainer p {
+  font-size: var(--h3FontSize);
   color: var(--blackColor);
 }
 .review .secContainer .stars {
@@ -39,14 +44,14 @@
 }
 .review .secContainer .stars .icon {
   color: var(--primaryColor);
-  font-size: var(--h3FontSize);
+  font-size: var(--h1FontSize);
 }
 .review .secContainer .clientsImages {
   gap: 1rem;
 }
 .review .secContainer .clientsImages img {
-  height: 40px;
-  width: 40px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -54,9 +59,9 @@
   box-shadow: 0 0 2px 2px rgb(251, 212, 194);
 }
 .review .imgDiv {
-  height: 300px;
+  height: 500px;
   width: 100%;
-  border-radius: var(--borderRadius);
+  border-radius: 10px;
   overflow: hidden;
 }
 .review .imgDiv img {

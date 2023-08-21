@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 
-
 // full project colors
-:root{
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+:root {
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -24,33 +23,33 @@
   --borderRadius: 3rem;
 }
 
-.middle{
-    width: 100%;
+.middle {
+  width: 100%;
 
-    .secContainer{
-        .grid{
-            padding: 3rem;
-            border-radius: var(--borderRadius);
-            background: var(--primaryColorLight);
-            justify-content: center;
-            margin: auto;
-            gap: 2rem;
-        }
-
-        span{
-            justify-content: center;
-            gap: 0.5rem;
-
-            h1{
-                font-size: var(--h1FontSize);
-                font-weight: 700;
-                color: var(--blackColor);
-            }
-
-            p{
-                opacity: 0.8;
-                max-width: 80px;
-            }
-        }
+  .secContainer {
+    .grid {
+      padding: 3rem;
+      border-radius: var(--borderRadius);
+      background: var(--primaryColorLight);
+      justify-content: space-evenly;
+      margin: auto;
+      gap: 2rem;
     }
+
+    span {
+      justify-content: center;
+      gap: 0.5rem;
+
+      h1 {
+        font-size: var(--h1FontSize);
+        font-weight: 700;
+        color: var(--blackColor);
+      }
+
+      p {
+        opacity: 0.8;
+        max-width: 80px;
+      }
+    }
+  }
 }

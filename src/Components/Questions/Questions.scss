@@ -2,8 +2,8 @@
 
 // full project colors
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -23,85 +23,90 @@
   --borderRadius: 3rem;
 }
 
+.accordionContainer {
+  .title {
+    font-size: var(--normalFontSize);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    justify-content: space-between;
+    background: var(--primaryColorLight);
 
-.accordionContainer{
-    .title{
-         font-size: var(--normalFontSize);
-         align-items: center;
-         padding: 1rem;
-         border-radius: 10px;
-         justify-content: space-between;
-         background: var(--primaryColorLight);
-
-         span{
-            cursor: pointer;
-            .icon{
-                font-size: 1.2rem;
-                color: var(--blackColor);
-            }
-         }
-    }
-
-    .description{
-        font-size: var(--smallestFontSize);
-        display: flex;
-        align-items: center;
-        line-height: 20px;
-        white-space: pre-line;
-        height: 0;
-        transition: all 0.2s ease-in-out;
-        opacity: 0;
-        padding: 0 1rem;
-        background: var(--cardColor);
-        border-radius: 0 0 10px 10px;
+    span {
+      cursor: pointer;
+      .icon {
+        font-size: 1.2rem;
         color: var(--blackColor);
+      }
     }
+  }
 
-    .show{
-        height: 140px;
-        opacity: 1;
-    }
+  .description {
+    font-size: var(--smallestFontSize);
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    white-space: pre-line;
+    height: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    padding: 0 1rem;
+    background: var(--cardColor);
+    border-radius: 0 0 10px 10px;
+    color: var(--blackColor);
+  }
 
-    .activeTitle{
-        font-weight: 600;
-        border-radius: 10px 10px 0 0;
-    }
+  .show {
+    height: 140px;
+    opacity: 1;
+  }
+
+  .activeTitle {
+    font-weight: 600;
+    border-radius: 10px 10px 0 0;
+  }
 }
 
-.questions{
-    
-    .secHeading{
-        h3, h4{
-            padding-bottom: 1.5rem;
-        }
-
-        P{
-            font-size: var(--smallestFontSize);
-            color: var(--blackColor);
-            padding-bottom: 1rem;
-        }
+.questions {
+  .secHeading {
+    h3,
+    h4 {
+      padding-bottom: 1.5rem;
     }
 
-    .form{
-        .formContent{
-            gap: 1rem;
-            input, textarea{
-                background: var(--cardColor);
-                width: 100%;
-                padding: 1rem;
-                border: none;
-                outline: none;
-                border-radius: var(--borderRadius);
-                &::placeholder{
-                    font-size: var(--smallestFontSize);
-                    color: var(--blackColor);
-                }
-            }
+    P {
+      font-size: var(--smallestFontSize);
+      color: var(--blackColor);
+      padding-bottom: 1rem;
+    }
+  }
 
-            textarea{
-                height: 100px;
-                border-radius: 10px;
-            }
+  .grid{
+    display: grid;
+    
+  }
+
+  .form {
+    .formContent {
+      gap: 1rem;
+      input,
+      textarea {
+        background: var(--cardColor);
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        outline: none;
+        border-radius: var(--borderRadius);
+        &::placeholder {
+          font-size: var(--smallestFontSize);
+          color: var(--blackColor);
         }
-    } 
+      }
+
+      textarea {
+        height: 100px;
+        border-radius: 10px;
+      }
+    }
+  }
 }

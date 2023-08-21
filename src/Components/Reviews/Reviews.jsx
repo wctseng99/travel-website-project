@@ -41,9 +41,9 @@ const Reviews = () => {
             <img src={image5} alt="client image" />
           </div>
         </div>
-        <div className="imgDiv">
+        {/* <div className="imgDiv">
           <img src={image4} alt="Div Image" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

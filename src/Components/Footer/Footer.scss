@@ -3,8 +3,8 @@
 
 // full project colors
 :root{
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+    --primaryColor: hsl(211, 97%, 25%);
+    --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -29,6 +29,7 @@
     padding: 2rem 0;
 
     .secContainer{
+        display: grid;
         gap: 1.5rem;
         text-align: center;
         align-items: flex-start;
@@ -68,32 +69,37 @@
             }
         }
     }
-
-    .footerLinks{
-        display: grid;
-        row-gap: 0.2rem;
-
-        .linkTitle{
-            padding-bottom: 0.5rem;
-            color: var(--blackColor);
-            font-weight: 700;
-        }
-
-        li{
-            &:hover{
-                transform: translate(10px);
-                a{
-                    color: var(--primaryColor);
+    .LinksSection{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        .footerLinks{
+            display: grid;
+            row-gap: 0.2rem;
+    
+            .linkTitle{
+                padding-bottom: 0.5rem;
+                color: var(--blackColor);
+                font-weight: 700;
+            }
+    
+            li{
+                &:hover{
+                    transform: translate(10px);
+                    a{
+                        color: var(--primaryColor);
+                    }
                 }
             }
-        }
-
-        a, .phone, .email{
-            color: var(--blackColor);
-            font-size: 13px;
-            font-weight: 500;
+    
+            a, .phone, .email{
+                color: var(--blackColor);
+                font-size: 13px;
+                font-weight: 500;
+            }
         }
     }
+
 
 
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -69,10 +69,12 @@
     border-bottom: 1.5px solid var(--primaryColor);
   }
 }
-.navBar .menuIcon, .navBar .closeIcon {
+.navBar .menuIcon,
+.navBar .closeIcon {
   font-size: var(--h1FontSize);
 }
-.navBar .menuIcon:hover, .navBar .closeIcon:hover {
+.navBar .menuIcon:hover,
+.navBar .closeIcon:hover {
   color: var(--primaryColor);
 }
 .navBar .closeIcon {
@@ -91,7 +93,8 @@
   .navBar .logoDiv span {
     font-size: var(--h2FontSize);
   }
-  .navBar .menuIcon, .navBar .closeIcon {
+  .navBar .menuIcon,
+  .navBar .closeIcon {
     display: none;
   }
   .navBar .menu ul {

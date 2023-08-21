@@ -17,6 +17,7 @@ import img5 from "../../Assets/img5.jpg";
 import img6 from "../../Assets/img6.jpg";
 import img7 from "../../Assets/img7.jpg";
 import img8 from "../../Assets/img8.jpg";
+import img9 from "../../Assets/img9.jpg";
 
 const destinations = [
   {
@@ -74,6 +75,13 @@ const destinations = [
     name: "Palawan",
     location: "Philippines",
     rating: "4.6",
+  },
+  {
+    id: 9,
+    img: img9,
+    name: "New York",
+    location: "United States",
+    rating: "4.7",
   },
 ];
 

@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 
-
 // full project colors
-:root{
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+:root {
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -24,53 +23,54 @@
   --borderRadius: 3rem;
 }
 
-.Home{
-    position: relative;
-    height: 95vh;
+.Home {
+  position: relative;
+  height: 95vh;
+  width: 100%;
+  top: 0;
+
+  .videoBg {
+    position: absolute;
+    height: 100%;
     width: 100%;
-    top: 0;
 
-    .videoBg{
-        position: absolute;
-        height: 100%;
-        width: 100%;
+    video {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 
-        video{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
+  .sectionText {
+    position: absolute;
+    height: 100%;
+    top: 30%;
+    bottom: 50%;
+    // justify-content: center;
+    // text-align: center;
+    color: var(--whiteColor);
+    padding: 0 1.5rem;
+
+    h1 {
+      font-size: var(--biggestFontSize);
+      font-weight: 900;
     }
 
-    .sectionText{
-        position: absolute;
-        height: 100%;
-        top: 30%;
-        bottom: 50%;
-        color: var(--whiteColor);
-        padding: 0 1.5rem;
-
-        h1{
-            font-size: var(--biggestFontSize);
-            font-weight: 900;
-        }
-    
-        p{
-            padding: 1rem 0;
-            font-size: var(--normalFontSize);
-            font-weight: 500;
-        }
-    
-        .btn{
-            gap: 0.5rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            font-size: var(--h3FontSize);
-            
-        }
+    p {
+      padding: 1rem 0;
+      font-size: var(--normalFontSize);
+      font-weight: 500;
     }
 
-    popularPlaces{
-        display: none ;
+    .btn {
+      gap: 0.5rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: var(--h3FontSize);
     }
+  }
+
+  popularPlaces {
+    display: none;
+  }
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -57,7 +57,8 @@
   border-radius: 10px 10px 0 0;
 }
 
-.questions .secHeading h3, .questions .secHeading h4 {
+.questions .secHeading h3,
+.questions .secHeading h4 {
   padding-bottom: 1.5rem;
 }
 .questions .secHeading P {
@@ -65,10 +66,14 @@
   color: var(--blackColor);
   padding-bottom: 1rem;
 }
+.questions .grid {
+  display: grid;
+}
 .questions .form .formContent {
   gap: 1rem;
 }
-.questions .form .formContent input, .questions .form .formContent textarea {
+.questions .form .formContent input,
+.questions .form .formContent textarea {
   background: var(--cardColor);
   width: 100%;
   padding: 1rem;
@@ -80,7 +85,8 @@
   font-size: var(--smallestFontSize);
   color: var(--blackColor);
 }
-.questions .form .formContent input::placeholder, .questions .form .formContent textarea::placeholder {
+.questions .form .formContent input::placeholder,
+.questions .form .formContent textarea::placeholder {
   font-size: var(--smallestFontSize);
   color: var(--blackColor);
 }

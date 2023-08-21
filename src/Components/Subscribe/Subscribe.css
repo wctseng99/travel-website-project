@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -19,20 +19,35 @@
   --borderRadius: 3rem;
 }
 
+.subscribe {
+  position: relative;
+}
+.subscribe .secContainer {
+  position: absolute;
+}
 .subscribe .secContainer img {
   border-radius: var(--borderRadius);
   width: 100%;
-  height: 500px;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.subscribe .secContainer .textDiv h4 {
+.subscribe .textDiv {
+  position: absolute;
+  height: 100%;
+  top: 100%;
+  bottom: 50%;
+  padding: 0 3rem;
+}
+.subscribe .textDiv h4 {
   font-size: var(--h2FontSize);
-  color: var(--blackColor);
+  color: var(--whiteColor);
 }
-.subscribe .secContainer .textDiv p {
+.subscribe .textDiv p {
   padding: 1rem 0;
+  color: var(--whiteColor);
+  font-size: var(--normalFontSize);
 }
-.subscribe .secContainer .textDiv .btn {
+.subscribe .textDiv .btn {
   padding: 0.5rem 2rem;
 }/*# sourceMappingURL=Subscribe.css.map */

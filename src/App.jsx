@@ -21,7 +21,7 @@ function App() {
       <Portifolio />
       <Reviews />
       <Questions />
-      <Subscribe />
+      {/* <Subscribe /> */}
       <Footer />
     </dev>
   )

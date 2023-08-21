@@ -2,8 +2,8 @@
 
 // full project colors
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -25,6 +25,10 @@
 
 .review {
   .secContainer {
+    .grid{
+      display: grid;
+      grid-template-columns:2fr 1fr;
+    }
     .redText {
       font-size: var(--smallestFontSize);
       display: block;
@@ -39,6 +43,7 @@
     }
 
     p {
+      font-size: var(--h3FontSize);
       color: var(--blackColor);
     }
 
@@ -47,15 +52,15 @@
       padding: 1rem 0;
       .icon {
         color: var(--primaryColor);
-        font-size: var(--h3FontSize);
+        font-size: var(--h1FontSize);
       }
     }
 
     .clientsImages {
       gap: 1rem;
       img {
-        height: 40px;
-        width: 40px;
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
         object-fit: cover;
         border: 0 0 2px 2px rgb(255, 255, 255);
@@ -65,9 +70,9 @@
   }
 
   .imgDiv {
-    height: 300px;
+    height: 500px;
     width: 100%;
-    border-radius: var(--borderRadius);
+    border-radius: 10px;
     overflow: hidden;
     img {
       object-fit: cover;

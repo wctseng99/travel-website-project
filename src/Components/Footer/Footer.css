@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -24,6 +24,7 @@
   padding: 2rem 0;
 }
 .footer .secContainer {
+  display: grid;
   gap: 1.5rem;
   text-align: center;
   align-items: flex-start;
@@ -56,22 +57,27 @@
 .footer .secContainer .socials .icon:hover {
   background: var(--primaryColorLight);
 }
-.footer .footerLinks {
+.footer .LinksSection {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.footer .LinksSection .footerLinks {
   display: grid;
   row-gap: 0.2rem;
 }
-.footer .footerLinks .linkTitle {
+.footer .LinksSection .footerLinks .linkTitle {
   padding-bottom: 0.5rem;
   color: var(--blackColor);
   font-weight: 700;
 }
-.footer .footerLinks li:hover {
+.footer .LinksSection .footerLinks li:hover {
   transform: translate(10px);
 }
-.footer .footerLinks li:hover a {
+.footer .LinksSection .footerLinks li:hover a {
   color: var(--primaryColor);
 }
-.footer .footerLinks a, .footer .footerLinks .phone, .footer .footerLinks .email {
+.footer .LinksSection .footerLinks a, .footer .LinksSection .footerLinks .phone, .footer .LinksSection .footerLinks .email {
   color: var(--blackColor);
   font-size: 13px;
   font-weight: 500;

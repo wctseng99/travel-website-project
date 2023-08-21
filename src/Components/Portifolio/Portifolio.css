@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -26,6 +26,9 @@
   font-size: var(--h1FontSize);
   padding-bottom: 0.5rem;
 }
+.portifolio .secContainer .leftContent .grid {
+  display: grid;
+}
 .portifolio .secContainer .leftContent .grid .singlePortifolio {
   gap: 1rem;
   align-items: flex-start;
@@ -38,5 +41,5 @@
   padding-bottom: 0.5rem;
 }
 .portifolio .secContainer .rightContent img {
-  border-radius: var(--borderRadius);
+  border-radius: 10px;
 }/*# sourceMappingURL=Portifolio.css.map */

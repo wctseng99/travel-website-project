@@ -7,8 +7,8 @@
 }
 
 root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -17,7 +17,7 @@ root {
   --inputColor: hsl(330, 12%, 97%);
   --cardColor: hsl(300, 3%, 94%);
   --biggestFontSize: 2.5rem;
-  --h1FontSize: 1.6rem;
+  --h1FontSize: 2rem;
   --h2FontSize: 1.25rem;
   --h3FontSize: 1rem;
   --normalFontSize: 0.938rem;
@@ -36,7 +36,7 @@ body {
 }
 
 .grid {
-  display: grid;
+  display: flex;
   align-items: center;
   gap: 1.5rem;
 }
@@ -80,7 +80,7 @@ img, video {
   transition: 0.3s ease;
 }
 
-secTitle {
+.secTitle {
   display: none;
   text-align: center;
   padding: 1rem 0;
@@ -90,7 +90,7 @@ secTitle {
   flex-direction: column;
   gap: 1rem;
 }
-secTitle p {
+.secTitle p {
   color: var(--blackColor);
   font-size: var(--normalFontSize);
   font-weight: 400;
@@ -130,11 +130,11 @@ secTitle p {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background: var(--primaryColorLight);
+  background: var(--whiteColort);
 }
 
 ::-webkit-scrollbar-thumb {
   width: 10px;
-  background: var(--primaryColor);
+  background: var(--blackColor);
   border-radius: var(--borderRadius);
 }/*# sourceMappingURL=App.css.map */

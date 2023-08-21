@@ -9,8 +9,8 @@
 
 // full project colors
 root{
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: hsl(211, 97%, 25%);
+  --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -86,7 +86,7 @@ img, video{
   }
 }
 
-secTitle{
+.secTitle{
   display: none;
   text-align: center;
   padding: 1rem 0;
@@ -132,12 +132,12 @@ secTitle{
 
 ::-webkit-scrollbar{
   width: 10px;
-  background: var(--primaryColorLight);
+  background: var(--whiteColort);
 }
 
 ::-webkit-scrollbar-thumb{
   width: 10px;
-  background: var(--primaryColor);
+  background: var(--blackColor);
   border-radius: var(--borderRadius);
 }
 
