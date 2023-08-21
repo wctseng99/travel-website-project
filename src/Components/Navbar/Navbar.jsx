@@ -7,18 +7,16 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import { PiDotsNineBold } from "react-icons/pi";
 
 const Navbar = () => {
-  
   // State to track and update navbar
-  const [navBar, setNavBar] = useState('menu');
+  const [navBar, setNavBar] = useState("menu");
   // function to show navbar
   const showNavBar = () => {
     setNavBar("menu showNavBar");
-  }
+  };
   // function to remove navbar
   const removeNavBar = () => {
     setNavBar("menu");
-  }
-
+  };
 
   return (
     <div className="navBar">
@@ -40,7 +38,7 @@ const Navbar = () => {
       </div>
       <button className="signUpBtn btn">Sign Up</button>
       {/* icon to toggle Navbar */}
-      <PiDotsNineBold className="icon menuIcon" onClick={showNavBar}/>
+      <PiDotsNineBold className="icon menuIcon" onMouseEnter={showNavBar} />
     </div>
   );
 };

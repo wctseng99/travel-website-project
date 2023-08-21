@@ -6,7 +6,7 @@ const Questions = () => {
   const [active, setActive] = useState("");
 
   return (
-    <div className="question section container">
+    <div className="questions section container">
       <div className="secHeading">
         <h3>Frequently Asked Questions</h3>
       </div>
@@ -16,7 +16,8 @@ const Questions = () => {
             title="How do I choose the right travel destination for me?"
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales
         ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
-        molestie velit ultricies. Donec pretium in dolor nec venenatis.
+        molestie velit ultricies. 
+        Donec pretium in dolor nec venenatis.
         Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class
         aptent taciti sociosqu ad litora torquent per conubia nostra, per
         inceptos himenaeos."
@@ -31,8 +32,8 @@ const Questions = () => {
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales
         ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
         molestie velit ultricies. Donec pretium in dolor nec venenatis.
-        Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class
-        aptent taciti sociosqu ad litora torquent per conubia nostra, per
+        Suspendisse dolor mi, semper et tristique vitae, sagittis in diam.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
         inceptos himenaeos."
             active={active}
             setActive={setActive}
@@ -42,8 +43,8 @@ const Questions = () => {
         <div className="accordion grid">
           <Accordion
             title="How can I find the budget-friendly travel options and deals?"
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales
-        ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aliquam sodales ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
         molestie velit ultricies. Donec pretium in dolor nec venenatis.
         Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class
         aptent taciti sociosqu ad litora torquent per conubia nostra, per
@@ -57,7 +58,7 @@ const Questions = () => {
           <Accordion
             title="What essential items should I pack for my adventrue?"
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales
-        ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
+        ac arcu ac tincidunt.Nulla faucibus purus vitae ipsum convallis, eu
         molestie velit ultricies. Donec pretium in dolor nec venenatis.
         Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class
         aptent taciti sociosqu ad litora torquent per conubia nostra, per
@@ -82,6 +83,7 @@ const Questions = () => {
             <button className="btn">Submit Inquiry</button>
           </div>
         </div>
+        
       </div>
     </div>
   );
