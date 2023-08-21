@@ -8,8 +8,9 @@
 }
 
 // full project colors
-root{
-  --primaryColor: hsl(211, 97%, 25%);
+root {
+  // --primaryColor: hsl(211, 97%, 25%);
+  --primaryColor: hsl(44, 98%, 48%);
   --primaryColorLight: hsl(210, 53%, 87%);
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
@@ -30,49 +31,50 @@ root{
   --borderRadius: 3rem;
 }
 
-body{
-  background-color: var(--bgColor); 
+body {
+  background-color: var(--bgColor);
 }
 
 // default styling
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
 
-.grid{
+.grid {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
-p{
+p {
   font-size: var(--smallFontSize);
 }
 
-html{
+html {
   font-size: 90%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.icon{
+.icon {
   font-size: var(--h2FontSize);
   cursor: pointer;
 }
 
-img, video{
+img,
+video {
   height: auto;
   width: 100%;
 }
 
-.btn{
+.btn {
   border: none;
   outline: none;
   cursor: pointer;
@@ -81,12 +83,12 @@ img, video{
   color: var(--whiteColor);
   background: var(--primaryColor);
 
-  &:hover{
-    transition: .3s ease;
+  &:hover {
+    transition: 0.3s ease;
   }
 }
 
-.secTitle{
+.secTitle {
   display: none;
   text-align: center;
   padding: 1rem 0;
@@ -96,51 +98,47 @@ img, video{
   flex-direction: column;
   gap: 1rem;
 
-  p{
+  p {
     color: var(--blackColor);
     font-size: var(--normalFontSize);
     font-weight: 400;
   }
 }
 
-.secHeading{
+.secHeading {
   padding-bottom: 1.5rem;
 }
 
-.btn .icon{
+.btn .icon {
   margin-left: 0.5rem;
 }
 
-.btn:hover{
+.btn:hover {
   color: var(--primaryColor);
   background-color: var(--primaryColorLight);
 }
 
-.section{
+.section {
   padding: 4rem 0 2rem;
 }
 
-.container{
+.container {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-::selection{
+::selection {
   background: var(--primaryColorLight);
   color: var(--primaryColor);
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
   background: var(--whiteColort);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   width: 10px;
   background: var(--blackColor);
   border-radius: var(--borderRadius);
 }
-
-
-
-
