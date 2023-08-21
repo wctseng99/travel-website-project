@@ -22,7 +22,7 @@ function App() {
       <Reviews />
       <Questions />
       <Subscribe />
-      {/* <Footer /> */}
+      <Footer />
     </dev>
   )
 }
