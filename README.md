@@ -10,8 +10,6 @@ It is under development and will be updated soon.
 
 - Fonts: https://fonts.google.com/
 
-- Animation: https://github.com/michalsnik/aos
-
 - Videos: https://pixabay.com/videos/
 
 - Images: https://www.pexels.com/  
