@@ -43,7 +43,7 @@ const Questions = () => {
 
           <div className="accordion grid">
             <Accordion
-              title="How can I find the budget-friendly travel options and deals?"
+              title="How can I find the budget-friendly travel options?"
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Aliquam sodales ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
           molestie velit ultricies. Donec pretium in dolor nec venenatis.
