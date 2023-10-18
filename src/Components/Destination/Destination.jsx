@@ -112,12 +112,12 @@ const Destination = () => {
         <div className="searchField grid">
           <div className="inputField flex">
             <MdLocationPin className="icon" />
-            <input type="text" placeholder="Location" />
+            <input type="text" placeholder="From" />
           </div>
 
           <div className="inputField flex">
             <MdLocationPin className="icon" />
-            <input type="text" placeholder="Location" />
+            <input type="text" placeholder="To" />
           </div>
 
           <div className="inputField flex">

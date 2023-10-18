@@ -19,7 +19,7 @@ const Home = () => {
           Discover the world's most advanturous nature, life is so short for a
           trip.
         </p>
-        <button className="btn flex">
+        <button className="btn">
           Get Started <AiOutlineSwapRight className="icon" />
         </button>
       </div>

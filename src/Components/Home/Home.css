@@ -39,13 +39,14 @@
 .Home .sectionText {
   position: absolute;
   height: 100%;
-  top: 30%;
+  top: 50%;
   bottom: 50%;
+  text-align: center;
   color: var(--whiteColor);
   padding: 0 1.5rem;
 }
 .Home .sectionText h1 {
-  font-size: var(--biggestFontSize);
+  font-size: 1.5rem;
   font-weight: 900;
 }
 .Home .sectionText p {
@@ -58,7 +59,23 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: var(--h3FontSize);
+  font-weight: 500;
 }
 .Home popularPlaces {
   display: none;
+}
+@media screen and (min-width: 768px) {
+  .Home .sectionText {
+    text-align: left;
+    top: 30%;
+  }
+  .Home .sectionText h1 {
+    font-size: var(--biggestFontSize);
+    font-weight: 900;
+  }
+  .Home .sectionText p {
+    padding: 1rem 0;
+    font-size: var(--h2FontSize);
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=Home.css.map */

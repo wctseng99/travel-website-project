@@ -23,33 +23,69 @@
   --smallestFontSize: 0.75rem;
   --borderRadius: 3rem;
 }
+@media screen and (max-width: 768px) {
+  .middle {
+    width: 100%;
 
-.middle {
-  width: 100%;
-
-  .secContainer {
-    .grid {
-      padding: 3rem;
-      border-radius: var(--borderRadius);
-      background: var(--primaryColorLight);
-      justify-content: space-evenly;
-      margin: auto;
-      gap: 2rem;
-    }
-
-    span {
-      justify-content: center;
-      gap: 0.5rem;
-
-      h1 {
-        font-size: var(--h1FontSize);
-        font-weight: 700;
-        color: var(--blackColor);
+    .secContainer {
+      .grid {
+        padding: 3rem;
+        border-radius: var(--borderRadius);
+        background: var(--primaryColorLight);
+        justify-content: space-evenly;
+        margin: 2rem;
+        gap: 2rem;
+        flex-direction: column;
       }
 
-      p {
-        opacity: 0.8;
-        max-width: 80px;
+      span {
+        justify-content: center;
+        gap: 0.5rem;
+
+        h1 {
+          font-size: var(--h1FontSize);
+          font-weight: 700;
+          color: var(--blackColor);
+        }
+
+        p {
+          opacity: 0.8;
+          max-width: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .middle {
+    width: 100%;
+
+    .secContainer {
+      .grid {
+        padding: 3rem;
+        border-radius: var(--borderRadius);
+        background: var(--primaryColorLight);
+        justify-content: space-evenly;
+        margin: auto;
+        gap: 2rem;
+        flex-direction: row;
+      }
+
+      span {
+        justify-content: center;
+        gap: 0.5rem;
+
+        h1 {
+          font-size: var(--h1FontSize);
+          font-weight: 700;
+          color: var(--blackColor);
+        }
+
+        p {
+          opacity: 0.8;
+          max-width: 80px;
+        }
       }
     }
   }

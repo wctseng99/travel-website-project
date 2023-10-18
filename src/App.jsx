@@ -18,8 +18,8 @@ function App() {
       <Home />
       <Middle />
       <Destination />
-      <Portifolio />
-      <Reviews />
+      {/* <Portifolio /> */}
+      {/* <Reviews /> */}
       <Questions />
       {/* <Subscribe /> */}
       <Footer />

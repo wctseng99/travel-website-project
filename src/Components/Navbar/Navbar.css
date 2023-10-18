@@ -65,7 +65,7 @@
     cursor: pointer;
   }
   .navBar .menu li:hover {
-    color: var(--primaryColorLight);
+    color: var(--primaryColor);
     border-bottom: 1.5px solid var(--primaryColor);
   }
 }
