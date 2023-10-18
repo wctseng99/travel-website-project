@@ -24,80 +24,147 @@
   --borderRadius: 3rem;
 }
 
-.footer {
-  background: var(--primaryColorLight);
-  padding: 2rem 0;
+@media screen and (min-width: 768px) {
+  .footer {
+    background: var(--primaryColorLight);
+    padding: 2rem 0;
 
-  .secContainer {
-    display: grid;
-    gap: 1.5rem;
-    text-align: center;
-    align-items: flex-start;
+    .secContainer {
+      display: grid;
+      gap: 1.5rem;
+      text-align: center;
+      align-items: flex-start;
 
-    .logoDiv {
-      .footerLogo {
-        display: flex;
-        color: var(--blackColor);
-        font-weight: 500;
-        cursor: pointer;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 0.5rem;
-      }
+      .logoDiv {
+        .footerLogo {
+          display: flex;
+          color: var(--blackColor);
+          font-weight: 500;
+          cursor: pointer;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 0.5rem;
+        }
 
-      .icon {
-        font-size: 25px;
-        color: var(--blackColor);
-      }
-    }
-
-    .socials {
-      gap: 0.5rem;
-      margin: auto;
-      justify-content: center;
-
-      .icon {
-        background: var(--primaryColor);
-        border-radius: 50%;
-        color: var(--whiteColor);
-        padding: 2px;
-        font-size: 25px;
-
-        &:hover {
-          background: var(--primaryColorLight);
+        .icon {
+          font-size: 30px;
+          color: var(--blackColor);
+        }
+        span {
+          font-size: 30px;
         }
       }
-    }
-  }
-  .LinksSection {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    .footerLinks {
-      display: grid;
-      row-gap: 0.2rem;
 
-      .linkTitle {
-        padding-bottom: 0.5rem;
-        color: var(--blackColor);
-        font-weight: 700;
-      }
+      .socials {
+        margin: auto;
+        justify-content: center;
+        gap: 2rem;
 
-      li {
-        &:hover {
-          transform: translate(10px);
-          a {
-            color: var(--primaryColor);
+        .icon {
+          background: var(--primaryColor);
+          border-radius: 50%;
+          color: var(--whiteColor);
+          padding: 2px;
+          font-size: 30px;
+
+          &:hover {
+            background: var(--primaryColorLight);
           }
         }
       }
+    }
+    .LinksSection {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      .footerLinks {
+        display: grid;
+        row-gap: 0.2rem;
 
-      a,
-      .phone,
-      .email {
-        color: var(--blackColor);
-        font-size: 13px;
-        font-weight: 500;
+        .linkTitle {
+          padding-bottom: 0.5rem;
+          color: var(--blackColor);
+          font-weight: 700;
+        }
+
+        li {
+          &:hover {
+            transform: translate(10px);
+            a {
+              color: var(--primaryColor);
+            }
+          }
+        }
+
+        a,
+        .phone,
+        .email {
+          color: var(--blackColor);
+          font-size: 13px;
+          font-weight: 500;
+        }
+      }
+    }
+    .right{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    background: var(--primaryColorLight);
+    padding: 2rem 0;
+
+    .secContainer {
+      display: grid;
+      gap: 1.5rem;
+      text-align: center;
+      align-items: flex-start;
+
+      .logoDiv {
+        .footerLogo {
+          display: flex;
+          color: var(--blackColor);
+          font-weight: 500;
+          cursor: pointer;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 0.5rem;
+        }
+
+        .icon {
+          font-size: 25px;
+          color: var(--blackColor);
+        }
+      }
+
+      .socials {
+        gap: 0.5rem;
+        margin: auto;
+        justify-content: center;
+
+        .icon {
+          background: var(--primaryColor);
+          border-radius: 50%;
+          color: var(--whiteColor);
+          padding: 2px;
+          font-size: 25px;
+
+          &:hover {
+            background: var(--primaryColorLight);
+          }
+        }
+      }
+      .footerLinks {
+        display: none;
+      }
+
+      .policy {
+        cursor: pointer;
+        &:hover {
+          color: var(--primaryColor);
+        }
       }
     }
   }

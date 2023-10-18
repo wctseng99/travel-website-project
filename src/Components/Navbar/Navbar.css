@@ -99,7 +99,7 @@
   }
   .navBar .menu ul {
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
   }
   .navBar .menu ul li {
     font-size: var(--h3FontSize);

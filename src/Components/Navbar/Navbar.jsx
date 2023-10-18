@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className="navBar">
       <div className="logoDiv">
         <BiLogoMediumOld className="icon" />
-        <span>OU-Trips</span>
+        <span>MulTrip</span>
       </div>
 
       <div className={navBar}>

@@ -5,6 +5,9 @@ import { BiLogoMediumOld } from "react-icons/bi";
 import { ImFacebook } from "react-icons/im";
 import { BsTwitter } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { BsDiscord } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -13,7 +16,7 @@ const Footer = () => {
         <div className="logoDiv">
           <div className="footerLogo">
             <BiLogoMediumOld className="icon" />
-            <span>OU-Trips</span>
+            <span>MulTrip</span>
           </div>
         </div>
 
@@ -21,6 +24,9 @@ const Footer = () => {
           <ImFacebook className="icon" />
           <BsTwitter className="icon" />
           <AiFillInstagram className="icon" />
+          <AiFillGithub className="icon" />
+          <AiFillLinkedin className="icon" />
+          <BsDiscord className="icon" />
         </div>
 
         <div className="LinksSection">
@@ -76,6 +82,14 @@ const Footer = () => {
             <span className="linkTitle">Contact Details</span>
             <span className="phone">+886 975 048 742</span>
             <span className="email">wctseng@gmail.com</span>
+          </div>
+          <div className="right">
+            <p>All Rights Reserved © MulTrip</p>
+            <p>
+              <span className="policy">Terms</span> |{" "}
+              <span className="policy">Privacy</span> |{" "}
+              <span className="policy">Security</span>
+            </p>
           </div>
         </div>
       </div>

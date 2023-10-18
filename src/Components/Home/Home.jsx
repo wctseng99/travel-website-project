@@ -20,7 +20,7 @@ const Home = () => {
           trip.
         </p>
         <button className="btn">
-          Get Started <AiOutlineSwapRight className="icon" />
+          Get Started
         </button>
       </div>
 

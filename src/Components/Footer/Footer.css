@@ -19,68 +19,125 @@
   --borderRadius: 3rem;
 }
 
-.footer {
-  background: var(--primaryColorLight);
-  padding: 2rem 0;
+@media screen and (min-width: 768px) {
+  .footer {
+    background: var(--primaryColorLight);
+    padding: 2rem 0;
+  }
+  .footer .secContainer {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: flex-start;
+  }
+  .footer .secContainer .logoDiv .footerLogo {
+    display: flex;
+    color: var(--blackColor);
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+  }
+  .footer .secContainer .logoDiv .icon {
+    font-size: 30px;
+    color: var(--blackColor);
+  }
+  .footer .secContainer .logoDiv span {
+    font-size: 30px;
+  }
+  .footer .secContainer .socials {
+    margin: auto;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .footer .secContainer .socials .icon {
+    background: var(--primaryColor);
+    border-radius: 50%;
+    color: var(--whiteColor);
+    padding: 2px;
+    font-size: 30px;
+  }
+  .footer .secContainer .socials .icon:hover {
+    background: var(--primaryColorLight);
+  }
+  .footer .LinksSection {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .footer .LinksSection .footerLinks {
+    display: grid;
+    row-gap: 0.2rem;
+  }
+  .footer .LinksSection .footerLinks .linkTitle {
+    padding-bottom: 0.5rem;
+    color: var(--blackColor);
+    font-weight: 700;
+  }
+  .footer .LinksSection .footerLinks li:hover {
+    transform: translate(10px);
+  }
+  .footer .LinksSection .footerLinks li:hover a {
+    color: var(--primaryColor);
+  }
+  .footer .LinksSection .footerLinks a,
+  .footer .LinksSection .footerLinks .phone,
+  .footer .LinksSection .footerLinks .email {
+    color: var(--blackColor);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .footer .right {
+    display: none;
+  }
 }
-.footer .secContainer {
-  display: grid;
-  gap: 1.5rem;
-  text-align: center;
-  align-items: flex-start;
-}
-.footer .secContainer .logoDiv .footerLogo {
-  display: flex;
-  color: var(--blackColor);
-  font-weight: 500;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 0.5rem;
-}
-.footer .secContainer .logoDiv .icon {
-  font-size: 25px;
-  color: var(--blackColor);
-}
-.footer .secContainer .socials {
-  gap: 0.5rem;
-  margin: auto;
-  justify-content: center;
-}
-.footer .secContainer .socials .icon {
-  background: var(--primaryColor);
-  border-radius: 50%;
-  color: var(--whiteColor);
-  padding: 2px;
-  font-size: 25px;
-}
-.footer .secContainer .socials .icon:hover {
-  background: var(--primaryColorLight);
-}
-.footer .LinksSection {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-}
-.footer .LinksSection .footerLinks {
-  display: grid;
-  row-gap: 0.2rem;
-}
-.footer .LinksSection .footerLinks .linkTitle {
-  padding-bottom: 0.5rem;
-  color: var(--blackColor);
-  font-weight: 700;
-}
-.footer .LinksSection .footerLinks li:hover {
-  transform: translate(10px);
-}
-.footer .LinksSection .footerLinks li:hover a {
-  color: var(--primaryColor);
-}
-.footer .LinksSection .footerLinks a,
-.footer .LinksSection .footerLinks .phone,
-.footer .LinksSection .footerLinks .email {
-  color: var(--blackColor);
-  font-size: 13px;
-  font-weight: 500;
+@media screen and (max-width: 768px) {
+  .footer {
+    background: var(--primaryColorLight);
+    padding: 2rem 0;
+  }
+  .footer .secContainer {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: flex-start;
+  }
+  .footer .secContainer .logoDiv .footerLogo {
+    display: flex;
+    color: var(--blackColor);
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+  }
+  .footer .secContainer .logoDiv .icon {
+    font-size: 25px;
+    color: var(--blackColor);
+  }
+  .footer .secContainer .socials {
+    gap: 0.5rem;
+    margin: auto;
+    justify-content: center;
+  }
+  .footer .secContainer .socials .icon {
+    background: var(--primaryColor);
+    border-radius: 50%;
+    color: var(--whiteColor);
+    padding: 2px;
+    font-size: 25px;
+  }
+  .footer .secContainer .socials .icon:hover {
+    background: var(--primaryColorLight);
+  }
+  .footer .secContainer .footerLinks {
+    display: none;
+  }
+  .footer .secContainer .policy {
+    cursor: pointer;
+  }
+  .footer .secContainer .policy:hover {
+    color: var(--primaryColor);
+  }
 }/*# sourceMappingURL=Footer.css.map */
