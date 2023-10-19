@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="videoBg">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsinline>
           <source src={Video} type="video/mp4" />
         </video>
       </div>
@@ -21,9 +21,7 @@ const Home = () => {
           Discover the world's most advanturous nature, life is so short for a
           trip.
         </p>
-        <button className="btn">
-          Get Started
-        </button>
+        <button className="btn">Get Started</button>
       </div>
 
       <div className="popularPlaces">

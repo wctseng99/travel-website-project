@@ -47,7 +47,7 @@ const Questions = () => {
               desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Aliquam sodales ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
           molestie velit ultricies. Donec pretium in dolor nec venenatis.
-          Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class aptent."
+          Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Classaptent."
               active={active}
               setActive={setActive}
             />
