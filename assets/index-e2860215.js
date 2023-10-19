@@ -51,9 +51,7 @@ Error generating stack: `+i.message+`
           inceptos himenaeos.`,active:e,setActive:n})}),c.jsx("div",{className:"accordion grid",children:c.jsx(xr,{title:"How can I find the budget-friendly travel options?",desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Aliquam sodales ac arcu ac tincidunt. Nulla faucibus purus vitae ipsum convallis, eu
           molestie velit ultricies. Donec pretium in dolor nec venenatis.
-          Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class
-          aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos.`,active:e,setActive:n})}),c.jsx("div",{className:"accordion grid",children:c.jsx(xr,{title:"What essential items should I pack for my adventrue?",desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales
+          Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class aptent.`,active:e,setActive:n})}),c.jsx("div",{className:"accordion grid",children:c.jsx(xr,{title:"What essential items should I pack for my adventrue?",desc:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales
           ac arcu ac tincidunt.Nulla faucibus purus vitae ipsum convallis, eu
           molestie velit ultricies. Donec pretium in dolor nec venenatis.
           Suspendisse dolor mi, semper et tristique vitae, sagittis in diam. Class
