@@ -124,9 +124,7 @@
   .secHeading {
     margin-top: 2rem;
     font-size: var(--h2FontSize);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 0rem;
   }
 }
