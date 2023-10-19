@@ -110,7 +110,7 @@
 @media screen and (max-width: 768px) {
   .secHeading {
     margin-top: 2rem;
-    font-size: var(--h2FontSize);
+    font-size: var(--h3FontSize);
     text-align: center;
     padding: 0rem;
   }

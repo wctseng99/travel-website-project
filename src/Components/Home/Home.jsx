@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="videoBg">
-        <video autoPlay loop muted playsinline>
+        <video autoPlay loop muted playsinline disablePictureInPicture>
           <source src={Video} type="video/mp4" />
         </video>
       </div>
