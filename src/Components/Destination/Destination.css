@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-items: center;
   }
   .destination .secContainer .sectTitle .redText {
     color: var(--primaryColor);
@@ -96,7 +97,6 @@
     width: 100%;
   }
   .destination .destinationContainer .imgDiv img {
-    height: 100%;
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;

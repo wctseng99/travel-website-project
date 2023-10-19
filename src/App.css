@@ -130,12 +130,12 @@ video {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
   background: var(--whiteColort);
 }
 
 ::-webkit-scrollbar-thumb {
-  width: 10px;
+  width: 5px;
   background: var(--blackColor);
   border-radius: var(--borderRadius);
 }/*# sourceMappingURL=App.css.map */

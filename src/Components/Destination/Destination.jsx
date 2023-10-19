@@ -103,7 +103,7 @@ const Destination = () => {
       <div className="secContainer">
         <div className="sectTitle">
           <span className="redText">EXPLORE NOW</span>
-          <h3> Find Your Dream Destination</h3>
+          <h3> Find Your Destination</h3>
           <p>
             Fill in the fields below to find the best spot for your next tour.
           </p>

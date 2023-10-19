@@ -10,7 +10,9 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="videoBg">
-        <video src={Video} autoPlay loop muted></video>
+        <video autoPlay loop muted>
+          <source src={Video} type="video/mp4" />
+        </video>
       </div>
 
       <div className="sectionText">

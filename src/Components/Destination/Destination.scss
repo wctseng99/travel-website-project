@@ -27,11 +27,12 @@
 @media screen and (max-width: 768px) {
   .destination {
     .secContainer {
-      .sectTitle{
+      .sectTitle {
         margin: 2rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         align-items: center;
         .redText {
           color: var(--primaryColor);
@@ -39,17 +40,16 @@
           font-weight: 500;
           padding: 0 1rem;
         }
-  
+
         h3 {
           font-size: var(--h1FontSize);
           padding: 0 1rem;
         }
-  
+
         P {
           padding: 0 1rem;
         }
       }
-
 
       .searchField {
         margin: 2rem 2rem;
@@ -114,7 +114,6 @@
         width: 100%;
 
         img {
-          height: 100%;
           width: 100%;
           object-fit: cover;
           transition: all 0.3s ease-in-out;
@@ -191,17 +190,16 @@
           font-weight: 500;
           padding: 0 1rem;
         }
-  
+
         h3 {
           font-size: var(--h1FontSize);
           padding: 0 1rem;
         }
-  
+
         P {
           padding: 0 1rem;
         }
       }
-
 
       .searchField {
         display: flex;
@@ -214,7 +212,7 @@
           padding: 1rem;
           border-radius: var(--borderRadius);
           gap: 0.5rem;
-          flex: 1
+          flex: 1;
         }
 
         input {
@@ -235,7 +233,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        flex: 1
+        flex: 1;
       }
     }
 

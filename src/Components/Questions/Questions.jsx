@@ -73,10 +73,10 @@ const Questions = () => {
         <div className="form">
           <div className="secHeading">
             <h3>Do you have any specific question?</h3>
-            <p>
+            {/* <p>
               Please fill the form below and our dedicated team will get intouch
               with you as soon as possible.
-            </p>
+            </p> */}
           </div>
 
           <div className="formContent grid">

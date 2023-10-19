@@ -19,172 +19,101 @@
   --borderRadius: 3rem;
 }
 
+.secHeading {
+  margin: 0rem 2rem;
+  font-size: var(--h2FontSize);
+}
+
+.accordionContainer {
+  margin: 0rem 2rem;
+}
+.accordionContainer .title {
+  font-size: var(--normalFontSize);
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  background: var(--primaryColorLight);
+}
+.accordionContainer .title span {
+  cursor: pointer;
+}
+.accordionContainer .title span .icon {
+  font-size: 1.2rem;
+  color: var(--blackColor);
+}
+.accordionContainer .description {
+  max-height: 150px;
+  padding-top: 1rem;
+  overflow-y: auto;
+  font-size: var(--smallestFontSize);
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  white-space: pre-line;
+  height: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  padding: 0 1rem;
+  background: var(--cardColor);
+  border-radius: 0 0 10px 10px;
+  color: var(--blackColor);
+}
+.accordionContainer .show {
+  height: 140px;
+  opacity: 1;
+}
+.accordionContainer .activeTitle {
+  font-weight: 600;
+  border-radius: 10px 10px 0 0;
+}
+
+.questions .secHeading h3,
+.questions .secHeading h4 {
+  padding-bottom: 1.5rem;
+}
+.questions .secHeading P {
+  font-size: var(--smallestFontSize);
+  color: var(--blackColor);
+  padding-bottom: 1rem;
+}
+.questions .grid {
+  display: grid;
+}
+.questions .form .formContent {
+  margin: 0 2rem;
+  gap: 1rem;
+}
+.questions .form .formContent input,
+.questions .form .formContent textarea {
+  background: var(--cardColor);
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: var(--borderRadius);
+}
+.questions .form .formContent input::-moz-placeholder, .questions .form .formContent textarea::-moz-placeholder {
+  font-size: var(--smallestFontSize);
+  color: var(--blackColor);
+}
+.questions .form .formContent input::placeholder,
+.questions .form .formContent textarea::placeholder {
+  font-size: var(--smallestFontSize);
+  color: var(--blackColor);
+}
+.questions .form .formContent textarea {
+  height: 100px;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .secHeading {
-    margin: 0rem 2rem;
+    margin-top: 2rem;
     font-size: var(--h2FontSize);
-    text-align: center;
-  }
-  .accordionContainer {
-    margin: 0rem 2rem;
-  }
-  .accordionContainer .title {
-    font-size: var(--normalFontSize);
-    align-items: center;
-    padding: 1rem;
-    border-radius: 10px;
-    justify-content: space-between;
-    background: var(--primaryColorLight);
-  }
-  .accordionContainer .title span {
-    cursor: pointer;
-  }
-  .accordionContainer .title span .icon {
-    font-size: 1.2rem;
-    color: var(--blackColor);
-  }
-  .accordionContainer .description {
-    font-size: var(--smallestFontSize);
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    line-height: 20px;
-    white-space: pre-line;
-    height: 0;
-    transition: all 0.2s ease-in-out;
-    opacity: 0;
-    padding: 0 1rem;
-    background: var(--cardColor);
-    border-radius: 0 0 10px 10px;
-    color: var(--blackColor);
-  }
-  .accordionContainer .show {
-    height: 140px;
-    opacity: 1;
-  }
-  .accordionContainer .activeTitle {
-    font-weight: 600;
-    border-radius: 10px 10px 0 0;
-  }
-  .questions .secHeading h3,
-  .questions .secHeading h4 {
-    padding-bottom: 1.5rem;
-  }
-  .questions .secHeading P {
-    font-size: var(--smallestFontSize);
-    color: var(--blackColor);
-    padding-bottom: 1rem;
-  }
-  .questions .grid {
-    display: grid;
-  }
-  .questions .form .formContent {
-    margin: 0 2rem;
-    gap: 1rem;
-  }
-  .questions .form .formContent input,
-  .questions .form .formContent textarea {
-    background: var(--cardColor);
-    width: 100%;
-    padding: 1rem;
-    border: none;
-    outline: none;
-    border-radius: var(--borderRadius);
-  }
-  .questions .form .formContent input::-moz-placeholder, .questions .form .formContent textarea::-moz-placeholder {
-    font-size: var(--smallestFontSize);
-    color: var(--blackColor);
-  }
-  .questions .form .formContent input::placeholder,
-  .questions .form .formContent textarea::placeholder {
-    font-size: var(--smallestFontSize);
-    color: var(--blackColor);
-  }
-  .questions .form .formContent textarea {
-    height: 100px;
-    border-radius: 10px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .secHeading {
-    margin: 0rem 2rem;
-    font-size: var(--h2FontSize);
-  }
-  .accordionContainer {
-    margin: 0rem 2rem;
-  }
-  .accordionContainer .title {
-    font-size: var(--normalFontSize);
-    align-items: center;
-    padding: 1rem;
-    border-radius: 10px;
-    justify-content: space-between;
-    background: var(--primaryColorLight);
-  }
-  .accordionContainer .title span {
-    cursor: pointer;
-  }
-  .accordionContainer .title span .icon {
-    font-size: 1.2rem;
-    color: var(--blackColor);
-  }
-  .accordionContainer .description {
-    font-size: var(--smallestFontSize);
-    display: flex;
-    align-items: center;
-    line-height: 20px;
-    white-space: pre-line;
-    height: 0;
-    transition: all 0.2s ease-in-out;
-    opacity: 0;
-    padding: 0 1rem;
-    background: var(--cardColor);
-    border-radius: 0 0 10px 10px;
-    color: var(--blackColor);
-  }
-  .accordionContainer .show {
-    height: 140px;
-    opacity: 1;
-  }
-  .accordionContainer .activeTitle {
-    font-weight: 600;
-    border-radius: 10px 10px 0 0;
-  }
-  .questions .secHeading h3,
-  .questions .secHeading h4 {
-    padding-bottom: 1.5rem;
-  }
-  .questions .secHeading P {
-    font-size: var(--smallestFontSize);
-    color: var(--blackColor);
-    padding-bottom: 1rem;
-  }
-  .questions .grid {
-    display: grid;
-  }
-  .questions .form .formContent {
-    margin: 0 2rem;
-    gap: 1rem;
-  }
-  .questions .form .formContent input,
-  .questions .form .formContent textarea {
-    background: var(--cardColor);
-    width: 100%;
-    padding: 1rem;
-    border: none;
-    outline: none;
-    border-radius: var(--borderRadius);
-  }
-  .questions .form .formContent input::-moz-placeholder, .questions .form .formContent textarea::-moz-placeholder {
-    font-size: var(--smallestFontSize);
-    color: var(--blackColor);
-  }
-  .questions .form .formContent input::placeholder,
-  .questions .form .formContent textarea::placeholder {
-    font-size: var(--smallestFontSize);
-    color: var(--blackColor);
-  }
-  .questions .form .formContent textarea {
-    height: 100px;
-    border-radius: 10px;
   }
 }/*# sourceMappingURL=Questions.css.map */
