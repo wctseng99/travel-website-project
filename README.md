@@ -1,6 +1,6 @@
 # Travel Website project
 
-This project is built using React.js and Flexbox. It is a responsive website that can be viewed on different devices.
+This frontend project is built using React.js and Flexbox. It is a responsive website that can be viewed on different devices.
 It is under development and will be updated soon.
 
 
