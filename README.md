@@ -1,8 +1,8 @@
 # Travel Website project
 
-This frontend project is built with **React.js** and utilizes GitHub Actions for **CI/CD** integration.
-It is a responsive website that can be viewed on different devices.
-It is under development and will be updated soon.
+#### This frontend project is built with **React.js** and utilizes GitHub Actions for **CI/CD** integration.  
+It is a responsive website that can be viewed on different devices. It is under development and will be updated soon.  
+
 ![cover image](cover.png)
 
 ## Built with
