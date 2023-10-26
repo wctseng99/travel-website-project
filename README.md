@@ -2,7 +2,7 @@
 
 This project is built using React.js and Flexbox. It is a responsive website that can be viewed on different devices.
 It is under development and will be updated soon.
-
+![cover image](cover.png)
 
 ## Built with
 
